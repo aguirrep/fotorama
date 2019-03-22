@@ -1,0 +1,95 @@
+@font-face {
+  font-family: ebgaramond;
+  src: url(../fonts/EBGaramond-Regular.ttf);
+}
+
+@font-face {
+  font-family: aladin;
+  src: url(../fonts/Aladin-Regular.ttf);
+}
+
+:root{
+  --cor-banner-tema:#006400;
+}
+
+#banner{
+  text-align: right;
+  font-family: aladin;
+  font-size: 300%;
+  padding: 50px 0px 10px 0px;
+  background-color: var(--cor-banner-tema);
+  color: white;
+  margin-bottom: 10px;
+}
+
+#rodape{
+  text-align: right;
+  font-family: aladin;
+ 
+  background-color: var(--cor-banner-tema);
+  color: white;
+ }
+
+#conteudo{
+  font-family: ebgaramond;
+}
+
+#busca{
+  text-align: center;
+
+}
+
+.btn-primary{
+  background-color:  var(--cor-banner-tema) !important;
+  border-color:  var(--cor-banner-tema) !important;
+  /* font-family: aladin; Mesma fonte do banner*/
+}
+
+.btn-primary img{
+  width: 20px;
+}
+
+#campoBusca{
+  border-color:  var(--cor-banner-tema) !important;
+  box-shadow: none !important;
+}
+
+.imagem{
+  padding: 5px;
+}
+
+.listaImagens{
+  margin:auto;
+  padding-top: 12px;
+}
+
+.visualizacaoImagem{
+  padding: 10px;
+}
+.visualizacaoImagem img{
+  width: 100%;
+}
+.downloadImagem{
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.downloadImagem a{
+  margin: 3px;
+}
+
+.loading{
+  margin: auto;
+  padding: 10px;
+}
+
+.favorito{
+  text-align: center;
+}
+
+.favorito button{
+  outline: 0;
+  border:none;
+  background: none;
+}
